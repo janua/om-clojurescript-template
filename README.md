@@ -14,6 +14,12 @@ Main html file is `main.html` in root.
 
 `lein cljsbuild once` or `lein cljsbuild auto`
 
+#### !Remember
+
+If and when you move away from `om-clojurescript-template.core` to your own name, the javascript reference in `main.html` needs to use underscore.
+
+In this template, it is `om-clojurescript-template.core` in `project.clj` and `.cljs` files, and in javascript it is imported as `goog.require("om_clojurescript_template.core")`
+
 ## License
 
 Copyright © 2014
