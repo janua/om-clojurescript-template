@@ -8,7 +8,7 @@ All Clojurescript files under `src-cljs-main` are compiled and output to `output
 
 Main html file is `main.html` in root.
 
-#### With Leinigen
+#### With Leiningen
 
 `lein`
 
